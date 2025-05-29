@@ -1,0 +1,139 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+  
+  body {
+    font-family: 'Helvetica Neue', sans-serif;
+  }
+  
+  .hero-section {
+    position: relative;
+    width: 100%;
+    height: 60vh;
+    overflow: hidden;
+  }
+  
+  .hero-img {
+    width: 50%;
+    height: 100%;
+    object-fit: cover;
+  }
+  
+  header {
+    position: absolute;
+    top: 30px;
+    left: 50px;
+    right: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+    width: 400px;
+  }
+  
+  header h3 {
+    font-size: 24px;
+    color: white;
+  }
+  
+  nav p {
+    display: inline-block;
+    margin-left: 25px;
+    font-size: 14px;
+    cursor: pointer;
+    color: white;
+  }
+  
+  .hero-text {
+    position: absolute;
+    top: 50%;
+    left: 55%;
+    transform: translateY(-50%);
+    width: 35%;
+    color: black;
+  }
+  
+  .hero-text h1 {
+    font-size: 36px;
+    margin-bottom: 20px;
+  }
+  
+  .hero-text p {
+    font-size: 14px;
+    line-height: 1.8;
+    color: gray;
+    margin-bottom: 20px;
+  }
+  
+  .shop-link {
+    display: inline-flex;
+    align-items: center;
+    font-weight: bold;
+    letter-spacing: 2px;
+    text-decoration: none;
+    color: black;
+    letter-spacing: 10px;
+  }
+  
+  .shop-link svg {
+    margin-left: 10px;
+}
+  
+  .nav-arrows {
+    position: absolute;
+    bottom: 0;
+    display: flex;
+    margin-left: 676px;
+
+  }
+  
+  .arrow {
+    background: black;
+    color: white;
+    padding: 20px;
+    cursor: pointer;
+    font-size: 20px;
+    width: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .bottom-section {
+    display: flex;
+    height: 350px;
+    margin-top: 0;
+  }
+  
+  .image-text,
+  .image-white {
+    width: 33.33%;
+  }
+  
+  .image-text img,
+  .image-white img {
+    width: 120%;
+    height: 80%;
+    object-fit: cover;
+  }
+  
+  .about-content {
+    width: 28.5%;
+    padding: 40px;
+    background: white;
+  }
+  
+  .about-content h4 {
+    text-transform: uppercase;
+    font-size: 14px;
+    margin-bottom: 10px;
+  }
+  
+  .about-content p {
+    font-size: 14px;
+    color: gray;
+    line-height: 1.6;
+  }
+  
